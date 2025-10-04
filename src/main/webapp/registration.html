@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <p class="subtitle">Create your account to get started</p>
+        
+        <form class="registration-form" action="register" method="post">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit" class="btn btn-register">
+                Create Account
+            </button>
+            
+            <div class="form-footer">
+                <p>Already have an account? <a href="login.jsp" class="link">Login here</a></p>
+                <a href="index.jsp" class="back-link">← Back to home</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
