@@ -23,8 +23,8 @@ A **Java Servlet & JSP-based Dynamic Web Project** that provides user authentica
 
 ## 📂 Project Structure
 
+```text
 user-authentication-system/
-│
 ├── Java Resources/
 │   └── src/main/java/com/tech/
 │       ├── UserLoginServlet.java
@@ -33,7 +33,7 @@ user-authentication-system/
 │
 ├── src/main/webapp/
 │   ├── META-INF/
-│   ├── WEB-INF/                # web.xml (deployment descriptor)
+│   ├── WEB-INF/                          # web.xml (deployment descriptor)
 │   ├── error.html
 │   ├── error-styles.css
 │   ├── home.jsp
@@ -55,8 +55,9 @@ user-authentication-system/
 │   ├── updatePasswordSucces.html
 │   └── updatePasswordSucces-styles.css
 │
-├── build/                      # Compiled classes
-└── Libraries/                  # External jars (if any)
+├── build/                                # Compiled classes
+└── Libraries/                            # External jars (if any)
+
 
 ---
 
